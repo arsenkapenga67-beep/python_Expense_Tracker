@@ -2,7 +2,7 @@
 ## présentation 
 Dans ce TP,j'explique le programme 'main.py du TP1.
 ce programme demande à l'utilisateur son prénom, la matière qu'il doit réviser et la durée de révision, puis il va affiche un message personalisé
-## versions V1 à V4
+## versions V1 à V4 
 **V1:** il affiche le message initial de bienvenue, qui a été créé en local
 **V2:**  Ajout du prénom de l'utilisateur, et cela qu'intervient le premier push vers Github
 **V3:** a ce niveau il y'a l'ajout de la matière à réviser sur Github, puis la récupération grace à la commande 'git pull'
