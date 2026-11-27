@@ -74,3 +74,21 @@ def main():
    print("Invalid option.")
 if __name__ == "__main__":
             main()
+def delete_expense():
+    if not expenses:
+        print("Aucune depense a supprimer.")
+        return
+
+    show_expenses()
+
+    try:
+        number = int(input("Numero de la depense a supprimer : "))
+
+        if 1 <= number <= len(expenses):
+            removed = expenses.pop(number - 1)
+            print(f"{removed['description']} supprimee !")
+        else:
+            print("Numero invalide.")
+
+    except ValueError:
+        print("Veuillez entrer un nombre valide.")
